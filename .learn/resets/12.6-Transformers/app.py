@@ -7,17 +7,3 @@ incoming_ajax_data = [
 ]
 
 #Your code go here:
-def data_transformer(keys):
-    list = []
-    full_name =""
-    for i in keys:
-        list.append(keys[i])
-    for x in list:
-        print(type(x))
-    
-    print(full_name)
-    return full_name
-
-name_list = list(map(data_transformer, incoming_ajax_data))
-
-print(name_list)
