@@ -5,18 +5,3 @@ my_list = [3344,34334,454543,342534,4563456,3445,23455,234,262,2335,
 35,243,371,3251,351223,13231243,734,856,56,53,234342,56,545343]
 
 #Your code here:
-big_number = 999999999999999
-
-for number in my_list:
-    if number < big_number:
-        big_number = number
-    
-
-print(big_number)
-
-#for i in my_list:
-#    if (i < big_number):
-#        big_number = i
-#print(lower_number)
-
-
