@@ -12,4 +12,9 @@ tasks = [
 
 
 #Your code go here:
+def task_undone(task):
+    return task['done']
+        
 
+task_list = list(filter(task_undone, tasks))
+print(task_list)
