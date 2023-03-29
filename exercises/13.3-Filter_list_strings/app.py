@@ -7,8 +7,7 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
-def names_list(arrNames):
-    
-    return list(filter(lambda name: 'am' in name, arrNames))
+def names_list(arrNames):    
+    return list(filter(lambda name: 'am' in name.lower(), arrNames))
     
 print(names_list(names))
