@@ -2,10 +2,6 @@ par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget bib
 
 counts = {}
 #your code go here:
-new_par = par.lower()
-
-for letter in new_par:
-    print(letter)
 
 print(counts)
 
